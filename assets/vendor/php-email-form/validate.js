@@ -11,7 +11,8 @@
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
       event.preventDefault();
-
+     alert('Thanks we received your message team will contact you soon');
+return 
       let thisForm = this;
 
       let action = thisForm.getAttribute('action');
