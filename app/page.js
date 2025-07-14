@@ -15,12 +15,12 @@ export default function Home() {
             id="carouselExample"
             className="carousel slide"
             data-bs-ride="carousel"
-            data-bs-interval="1000" // auto slide every 3 seconds
+            data-bs-interval="3000" // auto slide every 3 seconds
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <Image
-                  src="/assets/img/hero-carousel/hero-carousel-1.jpg"
+                  src="/assets/img/hero-carousel/hero-carousel-3.jpg"
                   className="d-block w-100"
                   alt="Slide 1"
                   width={1200}
